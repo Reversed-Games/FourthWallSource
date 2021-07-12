@@ -20,7 +20,7 @@ STEP THREE - Go to your dashboard and create a new app
 STEP FOUR - Make the Photon Type "Photon PUN" and name it whatever you want                           
 STEP FIVE - Get the AppId from the new application you created                                       
 STEP SIX - Open the Fourth Wall Beta Source Code in Unity                                             
-STEP SEVEN - Go to Asset -> Photon -> PhotonUnityNetworking -> Resources and click PhotonServerSettings.asset                                                                           
+STEP SEVEN - Go to Assets -> Photon -> PhotonUnityNetworking -> Resources and click PhotonServerSettings.asset                                                                           
 STEP EIGHT - Click "Server/Cloud Settings" and put the AppId in "App Id PUN"                         
 STEP NINE - Test it out.                                                                             
 

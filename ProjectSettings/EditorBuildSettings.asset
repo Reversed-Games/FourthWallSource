@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl1.unity
+    guid: e6a3a39378b326946b75aca23bd16a94
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl2.unity
+    guid: c6cd3b2f069614947a48ee5d4753760e
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl3.unity
+    guid: 0831d942163adf64fa546661a3ea5d32
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl4.unity
+    guid: 47bce4539e7e7ab4db5528cb524d8d36
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl5.unity
+    guid: 4ad20d8be62577244a83ad5f5d15e2e8
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl6.unity
+    guid: 3bd2f43396431384b9f8380c3a4a9f8b
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl7.unity
+    guid: 9edd1ff5cd0c7824ba25ea7f26a27bb2
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl8.unity
+    guid: 11a48b1f2a2e0d6439aa64ffbeb2b349
+  - enabled: 1
+    path: Assets/Scenes/StoryMode/Lvl9.unity
+    guid: 07f84c3f3be78c5488016fcc85937319
+  - enabled: 1
+    path: Assets/Scenes/Secret.unity
+    guid: ea98d6afaa9a309459760418afc16c48
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerMenu.unity
+    guid: fa4768d18ddbd494c82de657f0436af1
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/Multiplayer1.unity
+    guid: eb94f9bbc81eaca48b6d12dbd84f02ee
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl1.unity
+    guid: 2e0f06da7e7d1184c9352cd27dbe1c4e
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl2.unity
+    guid: c4660efd13997354fa804ac639ac4f41
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl3.unity
+    guid: c17f06f1acf694d49a3fe0b3764a7e51
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl4.unity
+    guid: 470787af729bad64fa2f6df6cfe4385f
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl5.unity
+    guid: eb985894e9d46e24bad39e6cf687ee69
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl6.unity
+    guid: ac81b33d5112dbd428fadbbdcc847534
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl7.unity
+    guid: ed191ca14cf616146b43def102e6c1d9
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl8.unity
+    guid: eb4c5b88f769a764f8d74c0175a55ef5
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRLvl9.unity
+    guid: a971cf7089d82e64eb1d5086d7c185af
+  - enabled: 1
+    path: Assets/Scenes/Speedrun/SRSecret.unity
+    guid: 43069a51f9f730a4a9527c48d17410c2
+  m_configObjects: {}

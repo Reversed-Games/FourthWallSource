@@ -7,14 +7,14 @@ This contains the source code for Fourth Wall Beta (if you want any version befo
 - Any C# Editing Software
 
 #How to Open
-STEP ONE - Open Unity Hub                                                                             
+STEP ONE - Open Unity Hub
 STEP TWO - Press "ADD"                                                                               
 STEP THREE - Locate where you put the Fourth Wall Beta Source File                                   
 STEP FOUR - (if its not already selected) Set the unity version to the version you usually use       
 STEP FIVE - Open it                                                                                   
 
 #How to add Multiplayer
-STEP ONE - Go to https://www.photonengine.com/                                                       
+STEP ONE - Go to https://www.photonengine.com/
 STEP TWO - Create an account or Log-in to your account                                               
 STEP THREE - Go to your dashboard and create a new app                                               
 STEP FOUR - Make the Photon Type "Photon PUN" and name it whatever you want

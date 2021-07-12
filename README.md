@@ -7,22 +7,22 @@ This contains the source code for Fourth Wall Beta (if you want any version befo
 - Any C# Editing Software
 
 #How to Open
-STEP ONE - Open Unity Hub
-STEP TWO - Press "ADD"
-STEP THREE - Locate where you put the Fourth Wall Beta Source File
-STEP FOUR - (if its not already selected) Set the unity version to the version you usually use
-STEP FIVE - Open it
+STEP ONE - Open Unity Hub                                                                             
+STEP TWO - Press "ADD"                                                                               
+STEP THREE - Locate where you put the Fourth Wall Beta Source File                                   
+STEP FOUR - (if its not already selected) Set the unity version to the version you usually use       
+STEP FIVE - Open it                                                                                   
 
 #How to add Multiplayer
-STEP ONE - Go to https://www.photonengine.com/
-STEP TWO - Create an account or Log-in to your account
-STEP THREE - Go to your dashboard and create a new app
+STEP ONE - Go to https://www.photonengine.com/                                                       
+STEP TWO - Create an account or Log-in to your account                                               
+STEP THREE - Go to your dashboard and create a new app                                               
 STEP FOUR - Make the Photon Type "Photon PUN" and name it whatever you want
-STEP FIVE - Get the AppId from the new application you created
+STEP FIVE - Get the AppId from the new application you created                                       
 STEP SIX - Open the Fourth Wall Beta Source Code in Unity
-STEP SIVEN - Go to Asset -> Photon -> PhotonUnityNetworking -> Resources and click PhotonServerSettings.asset
-STEP EIGHT - Click "Server/Cloud Settings" and put the AppId in "App Id PUN"
-STEP NINE - Test it out.
+STEP SIVEN - Go to Asset -> Photon -> PhotonUnityNetworking -> Resources and click PhotonServerSettings.asset                                                                           
+STEP EIGHT - Click "Server/Cloud Settings" and put the AppId in "App Id PUN"                         
+STEP NINE - Test it out.                                                                             
 
 If you did it correct, you should be connected to a server and if you do it with two games running, you should see the other player.
 

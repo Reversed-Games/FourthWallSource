@@ -30,5 +30,5 @@ If you did it correct, you should be connected to a server and if you do it with
 
 # Video Tutorial
 
-- Multiplayer Tutorial - COMING SOON
-- Setting Up Tutorial - COMING SOON
+- Multiplayer Tutorial - https://www.youtube.com/watch?v=yMsPabokW8Q
+- Setting Up Tutorial - https://www.youtube.com/watch?v=PV2OIjjj52c

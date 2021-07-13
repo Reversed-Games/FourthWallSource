@@ -4,23 +4,24 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
+using Stopwatch = System.Diagnostics.Stopwatch;
 
 public class Timer : MonoBehaviour
 {
-    DateTime startTime;
-
     public Text timer;
-    public TimeSpan timeElapsed { get; private set; }
+    public Stopwatch watch;
+    public static Timer GetTimer;
 
     private void Start()
     {
-
-        startTime = DateTime.Now;
+        watch = new Stopwatch();
+        watch.Start();
+        GetTimer = this;
     }
 
     private void Update()
     {
-        this.timeElapsed = DateTime.Now - startTime;
-        timer.text = timeElapsed.ToString();
+        TimeSpan currentTime = watch.Elapsed;
+        timer.text = currentTime.ToString();
     }
 }

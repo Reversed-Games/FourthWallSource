@@ -10,6 +10,7 @@ public class ButtonControl : MonoBehaviour
     public GameObject third;
     public GameObject player;
     public bool enablePause = false;
+    
     private void Start()
     {
         Time.timeScale = 1;
@@ -29,6 +30,7 @@ public class ButtonControl : MonoBehaviour
         {
             if(enablePause == false)
             {
+                Timer.GetTimer.watch.Stop();
                 Debug.Log("Game has been paused");
                 Time.timeScale = 0;
                 Cursor.visible = true;
@@ -42,6 +44,7 @@ public class ButtonControl : MonoBehaviour
             }
             else
             {
+                Timer.GetTimer.watch.Start();
                 Debug.Log("Game has been resumed");
                 Time.timeScale = 1;
                 Cursor.visible = false;

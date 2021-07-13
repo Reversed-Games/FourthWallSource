@@ -16,6 +16,7 @@ public class SidebarScript : MonoBehaviour
 
     public void ResumeGame()
     {
+        Timer.GetTimer.watch.Start();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         pausegui.SetActive(false);

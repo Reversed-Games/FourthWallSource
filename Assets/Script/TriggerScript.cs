@@ -28,6 +28,26 @@ public class TriggerScript : MonoBehaviour
         {
             SceneManager.LoadScene("Lvl6");
         }
+
+        if (collision.collider.tag == "Player" && Trigger.tag == "Trigger" && Trigger.name == "Trigger1" && SceneManager.GetActiveScene().name == "SRLvl5")
+        {
+            collision.collider.transform.position = new Vector3(-1.54f, 0.5f, -4.004452f);
+            Debug.Log("Player hit Trigger1 in Lvl5");
+            Trigger.GetComponent<BoxCollider>().enabled = false;
+        }
+
+        if (collision.collider.tag == "Player" && Trigger.tag == "Trigger" && Trigger.name == "Trigger2" && SceneManager.GetActiveScene().name == "SRLvl5")
+        {
+            moveablecubeLVL5.transform.position = new Vector3(moveablecubeLVL5.transform.position.x, moveablecubeLVL5.transform.position.y + 25.27f, moveablecubeLVL5.transform.position.z);
+            Debug.Log("Player hit Trigger2 in Lvl5");
+            Trigger.GetComponent<BoxCollider>().enabled = false;
+
+        }
+
+        if (collision.collider.tag == "Player" && Trigger.tag == "Trigger" && Trigger.name == "Trigger3" && SceneManager.GetActiveScene().name == "SRLvl5")
+        {
+            SceneManager.LoadScene("SRLvl6");
+        }
     }
 
     // Start is called before the first frame update

@@ -57,8 +57,14 @@ public class WallScript : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Lvl9")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Lvl10");
             Debug.Log("Lvl9 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "Lvl10")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("Lvl10 - Wall touched");
         }
 
         // Speedrun Levels
@@ -110,14 +116,26 @@ public class WallScript : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "SRLvl9")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("SRLvl10");
             Debug.Log("SRLvl9 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "SRLvl10")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("SRLvl10 - Wall touched");
         }
 
         if (SceneManager.GetActiveScene().name == "SRSecret")
         {
             SceneManager.LoadScene(0);
             Debug.Log("SRSecret - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "MakerLevel")
+        {
+            SceneManager.LoadScene("MakerLevel");
+            Debug.Log("MakerLevel - Wall touched");
         }
 
 

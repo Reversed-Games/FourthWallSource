@@ -179,6 +179,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6426187641971684012, guid: 5b68d4e0d2427a246b5e30fa21630ed7, type: 3}
+      propertyPath: mode
+      value: 
+      objectReference: {fileID: 725983240}
+    - target: {fileID: 6426187641971684012, guid: 5b68d4e0d2427a246b5e30fa21630ed7, type: 3}
       propertyPath: pause
       value: 
       objectReference: {fileID: 948333615}
@@ -198,6 +202,78 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6424431619576850949, guid: 5b68d4e0d2427a246b5e30fa21630ed7, type: 3}
   m_PrefabInstance: {fileID: 117634554}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &725983239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 714.6347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -408.821
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.26152
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968587571368712221, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973636502752822310, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: m_Name
+      value: GamemodeManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897293504828123546, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+      propertyPath: gamemode
+      value: timer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+--- !u!114 &725983240 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5897293504828123546, guid: 4f2d3a25417ca9d40a52835e3b2fd656, type: 3}
+  m_PrefabInstance: {fileID: 725983239}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99da0d1e6339b45489066b3a0bf4a4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &892184502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1325329675406125006, guid: 5b68d4e0d2427a246b5e30fa21630ed7, type: 3}
@@ -294,6 +370,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1393611621918469442, guid: 76d0097920366fb4495b6b52d3e1a3b6, type: 3}
+      propertyPath: mode
+      value: 
+      objectReference: {fileID: 725983240}
     - target: {fileID: 1393611621918469442, guid: 76d0097920366fb4495b6b52d3e1a3b6, type: 3}
       propertyPath: third
       value: 

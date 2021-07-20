@@ -18,6 +18,11 @@ public class GamemodeScript : MonoBehaviour
         SceneManager.LoadScene("SRLvl1");
     }
 
+    public void gamemodeChoosen_Generate()
+    {
+        SceneManager.LoadScene("MakerLevel");
+    }
+
     public void goBack()
     {
         gamemodePanel.SetActive(false);

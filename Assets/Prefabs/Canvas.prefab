@@ -1221,9 +1221,6 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls: []
-  m_OnSubmit:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1463,6 +1460,7 @@ MonoBehaviour:
   consoleText: {fileID: 6017573090572543134}
   thirdperson: {fileID: 0}
   firstperson: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &4276508543207511983
 GameObject:
   m_ObjectHideFlags: 0

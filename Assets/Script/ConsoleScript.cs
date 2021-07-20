@@ -10,6 +10,7 @@ public class ConsoleScript : MonoBehaviour
     public Text consoleText;
     public GameObject thirdperson;
     public GameObject firstperson;
+    public GameObject player;
     public void SendToConsole()
     {
         // Easter Eggs

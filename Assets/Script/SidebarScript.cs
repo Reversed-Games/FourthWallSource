@@ -9,6 +9,7 @@ public class SidebarScript : MonoBehaviour
     public GameObject console;
     public bool active = false;
     public GameObject pausegui;
+    public GamemodeManager mode;
     public GameObject maincamera;
     public GameObject player;
     public GameObject third;
@@ -16,7 +17,32 @@ public class SidebarScript : MonoBehaviour
 
     public void ResumeGame()
     {
-        Timer.GetTimer.watch.Start();
+        if (mode.Instance.gamemode == "timer")
+        {
+            Timer.GetTimer.watch.Start();
+            Debug.Log("Game has been resumed");
+            Time.timeScale = 1;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            pausegui.SetActive(false);
+            third.GetComponent<FirstPersonLook>().enabled = true;
+            maincamera.GetComponent<FirstPersonLook>().enabled = true;
+            player.GetComponent<Crouch>().enabled = true;
+            player.GetComponent<Jump>().enabled = true;
+        }
+        if (mode.Instance.gamemode == "maker" || mode.Instance.gamemode == "storymode")
+        {
+            Debug.Log("Game has been resumed");
+            Time.timeScale = 1;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            pausegui.SetActive(false);
+            third.GetComponent<FirstPersonLook>().enabled = true;
+            maincamera.GetComponent<FirstPersonLook>().enabled = true;
+            player.GetComponent<Crouch>().enabled = true;
+            player.GetComponent<Jump>().enabled = true;
+        }
+        // Timer.GetTimer.watch.Start();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         pausegui.SetActive(false);

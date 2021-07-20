@@ -1,6 +1,6 @@
-# Fourth Wall Beta
+# Fourth Wall Source
 
-This contains the source code for Fourth Wall Beta (if you want any version before the Beta version, here is the link https://github.com/Reversed-Game-Studio/FourthWall/)
+This contains the source code for Fourth Wall (if you want any older version, here is the link https://github.com/Reversed-Game-Studio/FourthWall/)
 
 # Requirements
 - Unity
@@ -9,7 +9,7 @@ This contains the source code for Fourth Wall Beta (if you want any version befo
 # How to Open
 STEP ONE - Open Unity Hub                                                     
 STEP TWO - Press "ADD"                                                                               
-STEP THREE - Locate where you put the Fourth Wall Beta Source File                                   
+STEP THREE - Locate where you put the Fourth Wall Source File                                   
 STEP FOUR - (if its not already selected) Set the unity version to the version you usually use       
 STEP FIVE - Open it                                                                                   
 
@@ -19,7 +19,7 @@ STEP TWO - Create an account or Log-in to your account
 STEP THREE - Go to your dashboard and create a new app                                               
 STEP FOUR - Make the Photon Type "Photon PUN" and name it whatever you want                           
 STEP FIVE - Get the AppId from the new application you created                                       
-STEP SIX - Open the Fourth Wall Beta Source Code in Unity                                             
+STEP SIX - Open the Fourth Wall Source Code in Unity                                             
 STEP SEVEN - Go to Assets -> Photon -> PhotonUnityNetworking -> Resources and click PhotonServerSettings.asset                                                                           
 STEP EIGHT - Click "Server/Cloud Settings" and put the AppId in "App Id PUN"                         
 STEP NINE - Test it out.                                                                             

@@ -41,7 +41,7 @@ public class ConsoleScript : MonoBehaviour
         // User/Admin Based Commands
         if(consoleInput.text == "lvllist")
         {
-            consoleText.text = consoleText.text + "\n \n >" + consoleInput.text + "\n lvl1 - Level One \n lvl2 - Level Two \n lvl3 - Level Three \n lvl4 - Level Four \n lvl5 - Level Five \n lvl6 - Level Six \n lvl7 -  Level Seven \n lvl8 - Level Eight \n lvl9 - Level Nine \n secret - Secret Level";
+            consoleText.text = consoleText.text + "\n \n >" + consoleInput.text + "\n lvl1 - Level One \n lvl2 - Level Two \n lvl3 - Level Three \n lvl4 - Level Four \n lvl5 - Level Five \n lvl6 - Level Six \n lvl7 -  Level Seven \n lvl8 - Level Eight \n lvl9 - Level Nine \n lvl10 - Level 10 \n secret - Secret Level";
             consoleInput.text = "";
         }
 
@@ -99,6 +99,11 @@ public class ConsoleScript : MonoBehaviour
         if (consoleInput.text == "level lvl9")
         {
             SceneManager.LoadScene("Lvl9");
+        }
+
+        if (consoleInput.text == "level lvl10")
+        {
+            SceneManager.LoadScene("Lvl10");
         }
 
 

@@ -132,12 +132,73 @@ public class WallScript : MonoBehaviour
             Debug.Log("SRSecret - Wall touched");
         }
 
+        // Maker Level
+
         if (SceneManager.GetActiveScene().name == "MakerLevel")
         {
             SceneManager.LoadScene("MakerLevel");
             Debug.Log("MakerLevel - Wall touched");
         }
 
+        // Freeplay Level
+
+        if (SceneManager.GetActiveScene().name == "FPLvl1")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl1 - Wall touched");
+        }
+        if (SceneManager.GetActiveScene().name == "FPLvl2")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl2 - Wall touched");
+        }
+        if (SceneManager.GetActiveScene().name == "FPLvl3")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl3 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl4")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl4 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl5")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl5 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl6")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl6 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl7")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl7 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl8")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl8 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl9")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl9 - Wall touched");
+        }
+
+        if (SceneManager.GetActiveScene().name == "FPLvl10")
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("FPLvl10 - Wall touched");
+        }
 
         // Secret Levels (not including Speedrun)
 

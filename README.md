@@ -1,3 +1,7 @@
+# THIS IS NO LONGER BEING UPDATED
+
+As of version Beta 1.3, this is no longer being updated.
+
 # Fourth Wall Source
 
 This contains the source code for Fourth Wall (if you want any older version, here is the link https://github.com/Reversed-Game-Studio/FourthWall/)
